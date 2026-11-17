@@ -10,4 +10,8 @@ describe("Test", () => {
   it("fail with 1", () => {
     expect(2).toBe(1)
   })
+
+  it("fail with false", () => {
+    expect(true).toBe(false)
+  })
 })
